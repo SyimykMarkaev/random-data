@@ -1,0 +1,62 @@
+body{
+    margin: 0; 
+    padding: 0;
+    height: 100vh;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, 	#343d46 50%, 	#c0c5ce 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-wrapper{
+  width: 80vw;
+  min-height: 70vh;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+  background-color: #c0c5ce;
+}
+fieldset{
+    height: 80%;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    padding: 0;
+}
+legend{
+    margin: auto;
+    width: 150px;
+    height: 180px;
+}
+legend > img{
+    width: 100%;
+}
+
+
+button{
+    padding: 10px 30px;
+}
+.icons{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.active{
+    border: 1px solid blue;
+}
+.info-title{
+    height: 20px;
+}
+.info-content{
+    height: 20px;
+}
+div>img{
+    padding: 10px 15px;
+    cursor: pointer;
+}
